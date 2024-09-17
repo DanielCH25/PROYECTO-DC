@@ -1,0 +1,7 @@
+def tabla_1():
+  n_tabla=input('ELIGE UNA TABLA')
+  print('HAS ELEGIDO LA TABLA DEL' + n_tabla)
+  for numero in range(1,11):
+    print(n_tabla + srt(numero))
+    
+tabla_1()
