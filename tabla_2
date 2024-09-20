@@ -5,3 +5,14 @@ def tabla_2():
     print(n_tabla+'x '+str(numero)+ '='+ str(int(n_tabla)*numero))
 
 tabla_2()
+
+OTRA MANERA
+def tabla_2():
+  n_tabla = input('ELIGE UNA TABLA DE MULTIPLICAR DEL 1 AL 10: ')
+  print('HAS ELEGIDO LA TABLA DEL' + n_tabla)
+  for numero in range(1, 11):
+    solucion = numero * int(n_tabla)
+    print(f'{n_tabla} x {numero} = {solucion}')
+
+
+tabla_2()
