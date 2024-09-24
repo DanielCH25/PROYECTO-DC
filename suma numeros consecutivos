@@ -1,0 +1,10 @@
+def suma():
+  numero=int(input("Elige el numero que quieres que sume: "))
+  suma=0
+  for cont in range(1,numero+1):
+    suma=suma+cont
+  print("La suma es: ", str(suma))  
+     
+suma()
+  
+  
