@@ -1,0 +1,13 @@
+def suma():
+  suma_par=0
+  suma_impar=0
+  numero=(input("Elige hasta que numero quieres que sume: "))
+  for cont in range(1,int(numero)+1):
+    if(cont%2)==0:
+      suma_par=suma_par+cont
+    if(cont%2)==1:
+      suma_impar=suma_impar+cont
+  print("la suma de los numeros pares es: "+str(suma_par))
+  print("la suma de los impares es igual a: "+str(suma_impar)) 
+     
+suma()
