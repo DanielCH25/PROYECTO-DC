@@ -1,0 +1,20 @@
+def media_numeros():
+    suma=0
+    menor=int(input("Dime un numero entero mayor que cero: "))
+    mayor=0
+    for cont in range(1,6):
+        numero=int(input("Dime cinco numeros enteros mayor que cero: "))
+        if(numero<menor):
+            menor=numero
+        if(numero>mayor):
+            mayor=numero
+        suma=suma+numero
+    print("EL mayor es"+" "+str(mayor))
+    print("El menor es"+" "+str(menor))
+    media=float(suma)/cont
+    print("La media vale  "+str(media))
+    print("la suma entre los cinco numeros es"+" "+str(suma))
+    diferencia=mayor-menor
+    print("la diferencia entre el mayor y menor es"+" "+str(diferencia))
+
+media_numeros()
