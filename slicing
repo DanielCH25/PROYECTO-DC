@@ -1,0 +1,9 @@
+def slicing():
+    a=raw_input("escribe aquí tu nombre: ")
+    b=raw_input("escribe aquí tu apellido: ")
+    c=raw_input("escribe aquí tu segundo apellido: ")
+    d=raw_input("escribe aquí tu año de nacimiento: ")
+    usuario=b[0:3]+c[0:3]+a[0:3]+d[2:4]
+    print("USUARIO: " + usuario)
+
+slicing()
