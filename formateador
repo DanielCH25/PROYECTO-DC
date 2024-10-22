@@ -1,0 +1,7 @@
+def formateador():
+    nombre=raw_input("nombre: ")
+    edad=raw_input("edad: ")
+    frase="buenos dias, me llamo {} y tengo {} años".format(nombre,edad)
+    print(frase)
+
+formateador()
