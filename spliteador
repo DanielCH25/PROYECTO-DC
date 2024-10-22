@@ -1,0 +1,8 @@
+def mayusculizador():
+    frase=raw_input("escribe una texto puedes usar mayusculas y minusculas: ")
+    nueva_frase = frase.split('n')
+    
+    print(nueva_frase)
+
+mayusculizador()
+#hace algo raro
