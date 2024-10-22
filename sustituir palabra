@@ -1,0 +1,7 @@
+def sustituir():
+    frase=raw_input("escribe una texto puedes usar mayusculas y minusculas: ")
+    nueva_frase = frase.replace("hola", raw_input("escribe otra nueva frase: ")) # Convierte a mayúsculas
+    
+    print(nueva_frase)
+
+sustituir()
