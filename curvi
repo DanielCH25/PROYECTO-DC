@@ -1,0 +1,8 @@
+def curvi():
+    letra_mayuscula=raw_input("Elige la letra mayuscula: ")
+    if("Q","R","U","O","P","S","D","G","J","Ñ","C","V","B"):
+        print(1)
+    else:
+        print(0)
+
+curvi()
