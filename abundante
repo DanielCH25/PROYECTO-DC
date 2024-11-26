@@ -1,0 +1,10 @@
+def abundante():
+    num=int(input("introduce un numero"))
+    suma_divisores=sum(i for i in range(1, num) if num%i==0)
+            
+    if suma_divisores>num:
+        print(str(num)+ "es un número abundante")
+    else:
+        print(str(num)+ "no es un número abundante")
+            
+abundante()
