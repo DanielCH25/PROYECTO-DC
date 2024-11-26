@@ -11,16 +11,3 @@ def es_valido(direccion):
 
 
 
-
-def correos():
-    cadena_entrada=raw_input("Introduzca una lista de correos separados por comas: ")
-    lista_correos=cadena_entrada.split(",")
-    for direccion in lista_correos:
-        if(es_valido(direccion)==True):
-            respuesta="Correcto"
-        else:
-            respuesta="Incorrecto"
-           
-        print(direccion+" "+respuesta)
-   
-correos()
