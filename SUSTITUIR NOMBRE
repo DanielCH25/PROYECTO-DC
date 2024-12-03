@@ -1,1 +1,13 @@
+def reemplazador():
+    numletras=0
+    texto=input("Digame su texto: ")
+    palabra=input("Digame una palabra: ")
+    numletras=len(palabra)
+    print(numletras)
+    for cont in range(1,int(numletras)):
+        nuevo_texto=texto.replace(palabra,"")
+        print("*",end='')
+    print(nuevo_texto)
+            
+reemplazador()
 
