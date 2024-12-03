@@ -1,0 +1,14 @@
+def programa():
+    seguir=True
+    while(seguir==True):
+        palabra=input("Dime una palabra: ")
+        inversa=""
+        for cont in range(len(palabra)-1, -1, -1):
+            inversa += palabra[cont]
+        entrada="abcdefghijklmnñopqrstuvwxyz"
+        salida="AbcdEfghIjklmnñOpqrstUvwxyz"
+        cambio=str.maketrans(entrada,salida)
+        count=0
+        count=len(palabra)
+        print(count)
+programa
