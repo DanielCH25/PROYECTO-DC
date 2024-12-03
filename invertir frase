@@ -11,4 +11,6 @@ def programa():
         count=0
         count=len(palabra)
         print(count)
-programa
+        print("Palabra invertida: ",inversa.translate(cambio))
+programa()
+
